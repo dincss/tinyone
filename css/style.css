@@ -1,0 +1,282 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300italic,500);
+
+
+
+*, body{
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	        font-family: "PT Sans", sans-serif;
+}
+
+* {
+	transition: ease .2s;
+}
+.clearfix:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+/* Typography */
+.text-center {
+	text-align: center;
+}
+.mr15 {
+	margin-right: 15px;
+}
+/*************************/
+/**********HEADER*********/
+/*************************/
+header {
+	position: relative;
+}
+.head-top {
+	background: url('../images/bgc.png')  no-repeat center center;
+	background-size: cover; 
+	color: #fff;
+	padding-bottom: 107px;
+	position: relative;
+	background-position: 50% 50%;
+}
+header ul {
+		margin-top: 76px;
+		margin-bottom: 0;
+}
+header ul li {
+	display: inline-block;
+	color: #fff;
+	padding-left: 72px;
+
+	
+}
+header ul li a{
+	display: inline-block;
+	color: #010101;
+	font-size: 22px; 
+	font-weight: 700;
+	line-height: 20px; 
+}
+header ul li:hover a {
+	text-decoration: none;
+	color: #fff;
+
+}
+header .head-top img {
+	margin-top: 60px;
+	
+}
+.head-top h1 {
+color: #010101;
+font-size: 32px; 
+font-weight: 700;
+line-height: 18px; 
+text-align: left;
+margin-top: 134px;
+}
+.head-top h2 {
+color: #313841;
+font-size: 20px; 
+font-weight: 400;
+line-height: 24px; 
+text-align: left;
+margin-bottom: 0;
+}
+.head-top p {
+color: #545454;
+font-size: 16px; 
+font-weight: 400;
+line-height: 20px; 
+text-align: left;
+margin-top: 23px;
+}
+.social-but {
+	margin-right: 38px;
+}
+
+/*************************/
+/**********SECTION*********/
+/*************************/
+.features {
+	margin-top: 118px;
+	padding-bottom: 164px;
+}
+.features .col-md-12 h1 {
+color: #010101;
+font-size: 32px; 
+font-weight: 700;
+line-height: 32px; 
+text-align: center;
+margin-top: 0px;
+margin-bottom: 17px;
+}
+.features .col-md-12 p {
+color: #313841;
+font-size: 20px; 
+font-weight: 400;
+line-height: 24px; 
+text-align: center;
+margin-top: 0;
+margin-bottom: 0;
+padding-right: 100px;
+padding-left: 100px;
+}
+.blocks img {
+	margin-bottom: 70px;
+	margin-right: 34px;
+}
+.blocks h3 {
+color: #010101;
+font-size: 22px; 
+font-weight: 400;
+line-height: 24px;
+margin-top: 91px;
+}
+.blocks p {
+color: #898989;
+font-size: 16px; 
+font-weight: 400;
+line-height: 20px; 
+text-align: left;
+}
+.blocks2 img {
+	margin-bottom: 70px;
+	margin-right: 34px;
+}
+
+.blocks2 h3 {
+color: #010101;
+font-size: 22px; 
+font-weight: 400;
+line-height: 24px;
+margin-top: 87px;
+}
+.blocks2 p {
+color: #898989;
+font-size: 16px; 
+font-weight: 400;
+line-height: 20px; 
+text-align: left;
+}
+.blocks h3:hover, .blocks p:hover {
+	color: #FCDB00;
+	cursor: pointer;
+}
+.blocks2 h3:hover, .blocks2 p:hover {
+	color: #FCDB00;
+	cursor: pointer;
+}
+
+/*************************/
+/**********FOOTER*********/
+/*************************/
+
+.foo-background {
+	background: url('../images/lights-light-bulb-idea.png') no-repeat center center;
+	background-size: cover; 
+	color: #fff;
+	padding-bottom: 141px;
+	position: relative;
+	background-position: 50% 50%;
+	padding-top: 96px;
+}
+.footer-top h1 {
+color: #fcdb00;
+font-size: 32px;
+font-weight: 700;
+line-height: 32px; 
+text-align: center;
+margin-top: 0;
+margin-bottom: 17px;
+}
+.footer-top p {
+color: #898989;
+font-size: 20px; 
+font-weight: 400;
+line-height: 24px; 
+text-align: center;
+margin-bottom: 41px;
+margin-top: 0;
+
+}
+.footer-top form {
+	margin-left: 35px;
+}
+
+ .search_field {
+	color: #898989;
+font-size: 16px; 
+font-weight: 400;
+line-height: 20px; 
+text-align: left;
+	border: none;
+	display: inline;
+	max-width: 90%;
+	background: #fff;
+	width: 580px;
+	height: 50px;
+	border-radius: 5px;
+
+} 
+
+ .search_submit {
+	background-size: cover;
+	border: none;
+	display: inline;
+	border-style: solid;
+border-width: 2px;
+border-color: #010101;
+border-radius: 5px;
+background-color: #fcdb00;
+width: 126px;
+height: 50px;
+color: #000;
+font-weight: 700;
+font-family: "PT Sans", sans-serif;
+margin-left: 21px;
+}
+.search_submit:hover {
+	color: #fff;
+}
+.soc-icons a {
+	margin-left: 16px;
+	margin-right: 16px;
+}
+.soc-icons {
+	margin-top: 79px;
+	margin-bottom: 69px;
+}
+
+.footer-bottom ul {
+	list-style: none;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+.footer-bottom ul li {
+color: #ffffff;
+font-size: 16px; 
+font-weight: 400;
+line-height: 20px; 
+text-align: left;
+}
+.footer-bottom ul li a {
+color: #ffffff;
+font-size: 16px; 
+font-weight: 400;
+line-height: 20px; 
+text-align: left;
+}
+.footer-bottom ul li:hover a {
+	color: #FCDB00;
+	text-decoration: none;
+}
+.footer-bottom .row {
+	border-top: 1px solid #fff;
+	padding-top: 64px;
+}
+
+
+
+
